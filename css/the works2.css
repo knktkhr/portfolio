@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FFEAEA;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+main img{
+    margin-top: 100px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.preview{
+    position: relative;
+    width: 80%;
+    padding-top: 45%;
+    margin: 100px auto;
+}
+
+.preview iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    
+}
+
+.preview img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.commentary{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentary div{
+    width: 45%;   
+}
+.commentary div h3{
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.commentary div img{
+    width: 100%;
+}
+
+section h2{
+    margin-top: 150px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+
+
+}
+
+table{
+    width: 500px;
+    margin: 50px auto;
+
+}
+
+th{
+font-size: 30px;
+padding-right: 40px;
+font-family: 'Zen Kurenaido', sans-serif;
+text-align: left;
+}
+
+td{
+font-size: 20px;
+font-family: 'Zen Kurenaido', sans-serif;
+}
+
+td img{
+    margin-top: 6px;
+    width: 50px;
+}
+
+
+div p{
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: 'Zen Kurenaido', sans-serif;
+    line-height: 40px;
+}
+
+.url img{
+    margin-left: 50px;
+    width: 100px;
+}
+
+.url{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.point{
+    width: 70%;
+    margin: 150px auto 200px auto;
+    position: relative;
+    background: #ffdadf;
+    box-shadow: 0px 0px 0px 5px #ffd2d8;
+    border: dashed 2px white;
+    padding: 20px 20px;
+}
+
+.point:after{
+    position: absolute;
+    content: '';
+    right: -7px;
+    top: -7px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ff88a0 #fff #ff88a0;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.point h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    background: #ffdadf;
+}
+
+.point p{
+    width: 80%;
+    margin: 0 auto;
+    background: #ffdadf;
+}
+
+
+
+
+/* fadeUp */
+
+.fadeUp{
+    animation-name:fadeUpAnime;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes fadeUpAnime{
+      from {
+        opacity: 0;
+      transform: translateY(200px);
+      }
+    
+      to {
+        opacity: 1;
+      transform: translateY(0);
+      }
+    }
+    
+    
+    /* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+     
+    .fadeUpTrigger{
+        opacity: 0;
+    }
+
+    @media (max-width:700px){
+
+
+        main {
+            width: 80%;
+        }
+
+        main img {
+            height: auto;
+        }
+
+        section h2 {
+            margin-top: 70px;
+            font-size: 25px;
+        }
+
+        table {
+            width: auto;
+            margin: 30px auto;
+    
+        }
+    
+        th {
+            font-size: 12px;
+            padding-right: 25px;
+        }
+    
+        td {
+            font-size: 11px;
+        }
+    
+        td img {
+            width: 30px;
+        }
+    
+        div p {
+            width: 75%;
+            font-size: 11px;
+            margin: 0 auto;
+            line-height: 1.7em;
+        }
+
+        .preview {
+            width: 80%;
+            margin: 50px auto;
+        }
+    
+        .preview img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        .commentary div h3{
+            font-size: 15px;
+        }
+    
+        .point {
+            width: 75%;
+            margin: 100px auto 100px auto;
+        }
+    
+        .point h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+    
+        .point p {
+            width: 90%;
+    
+        }
+
+    }
