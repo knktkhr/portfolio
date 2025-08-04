@@ -8,6 +8,14 @@ a {
   padding: 0;
 }
 
+p {
+  font-size: 40px;
+  font-family: 'Kaisei Decol', serif;
+  overflow: hidden;
+  /*左右アニメーションで画面からはみ出る際に出る横スクロールバーを隠す*/
+  text-align: center;
+  letter-spacing: 0.1em;
+}
 
 
 
@@ -195,19 +203,19 @@ _:lang(x)+_:-webkit-full-screen-document,
 
 
 .main__character h1 {
-  font-family: 'Zeyada', cursive;
+    font-family: 'Kaisei Decol', serif;
   color: #fff;
-  font-size: 85px;
+  font-size: 55px;
   font-weight: bold;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
 
 
 }
 
 .main__character p {
-  font-size: 60px;
   color: #fff;
   font-weight: bold;
-  font-family: 'Zeyada', cursive;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -217,6 +225,7 @@ _:lang(x)+_:-webkit-full-screen-document,
   color: #fff;
   letter-spacing: 5px;
   margin-left: -35px;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
 }
 
 .main__scroll img {
@@ -439,10 +448,11 @@ _:lang(x)+_:-webkit-full-screen-document,
 #self h4 {
   width: 420px;
   margin: 3% auto;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 150%;
   text-align: left;
   font-family: 'Zen Kurenaido', sans-serif;
+  letter-spacing: 0.1em;
 }
 
 .hope {
@@ -810,16 +820,9 @@ footer li:hover {
 
 /*========= レイアウトのためのCSS ===============*/
 
-p {
-  font-size: 40px;
-  font-family: 'Kaisei Decol', serif;
-  overflow: hidden;
-  /*左右アニメーションで画面からはみ出る際に出る横スクロールバーを隠す*/
-  text-align: center;
-  letter-spacing: 0.1em;
-}
 
-.about__slide {
+
+/* .about__slide {
   font-size: 70px;
   color: #FFEAEA;
   text-shadow: 3px 3px 0 #dfb4e8, -1px -1px 0 #dfb4e8,
@@ -847,7 +850,7 @@ p {
     0px 1px 0 #FFC1C1, 0-1px 0 #FFC1C1,
     -1px 0 0 #FFC1C1, 1px 0 0 #FFC1C1;
   letter-spacing: 0.15em;
-}
+} */
 
 
 .stick {
