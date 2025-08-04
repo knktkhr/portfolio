@@ -77,7 +77,7 @@
   }
   
   #self__introduction p {
-    font-size: 25px;
+    font-size: 15px;
     margin-top: 15px;
     font-family: 'Zen Kurenaido', sans-serif;
   }
@@ -538,7 +538,7 @@
       width: 35%;
     }
     #self__introduction p{
-      font-size: 18px;
+      font-size: 12px;
     }
     th{
       font-size: 15px;
@@ -592,8 +592,8 @@
       text-align: center;
     }
     #self__introduction p{
-      font-size: 15px;
-      text-align: center;
+      font-size: 10px;
+      text-align: left;
     }
   
     table{
